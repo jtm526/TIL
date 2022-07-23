@@ -20,7 +20,7 @@ public class EqualsEx2 {
 
 }
 
-class Person {
+class Person { // class Person extends Object
 	long id;
 	
 	// Constructor

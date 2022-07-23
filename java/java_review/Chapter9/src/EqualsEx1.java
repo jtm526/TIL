@@ -5,6 +5,7 @@ public class EqualsEx1 {
 		Value v1 = new Value(10);
 		Value v2 = new Value(10);
 		
+		// 참조변수의 값으로 비교
 		if (v1.equals(v2)) {
 			System.out.println("v1 and v2 are the same.");
 		} else {

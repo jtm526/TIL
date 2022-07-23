@@ -17,3 +17,5 @@ public class HashCodeEx1 {
 	}
 
 }
+
+class Ex extends Object{}
