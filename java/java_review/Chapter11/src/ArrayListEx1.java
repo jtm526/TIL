@@ -2,7 +2,7 @@ import java.util.*;
 
 public class ArrayListEx1 {
 	public static void main(String[] args) {
-		ArrayList list1 = new ArrayList(10); // 10개짜리 ArrayList 생성
+		List list1 = new ArrayList(10); // 10개짜리 ArrayList 생성
 		list1.add(4);
 		list1.add(3);
 		list1.add(5);
@@ -39,7 +39,7 @@ public class ArrayListEx1 {
 		}
 	}
 	
-	static void print(ArrayList list1, ArrayList list2) {
+	static void print(List list1, List list2) {
 		System.out.println("list1: " + list1);
 		System.out.println("list2: " + list2);
 		System.out.println();
